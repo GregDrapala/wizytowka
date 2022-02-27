@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My first website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1><strong>Witaj na mojej stronie domowej!</strong></h1>
+        <img src="https://www.denverpost.com/wp-content/uploads/2016/05/20070423__BN23YELTSIN.jpg?w=600" alt="Laptop screen with code" title="Code">
+        <h2><strong>Kontakt</strong></h2>
+            <ul>
+                <li>E-mail ...</li>
+                <li>Telefon ...</li>
+            </ul>
+        <h3>Wyslij wiadomość.</h3>
+
+        <textarea id="confirmationText" class="text" cols="20" rows ="5" name="confirmationText" form="confirmationForm"></textarea>
+
+        <form action="sendConfirmation.php" id="confirmationForm" name="confirmationForm" method="post">
+        <input type="submit" value="przeslij" class="submitButton">
+        </form>
+    </body>
+</html>
